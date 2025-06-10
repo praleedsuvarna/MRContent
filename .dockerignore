@@ -1,0 +1,105 @@
+# Git files
+.git
+.gitignore
+.gitattributes
+*.md
+README.md
+LICENSE
+
+# Environment files (contains secrets!)
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node modules (if any)
+node_modules/
+npm-debug.log
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+main
+dist/
+build/
+bin/
+
+# Test files
+*_test.go
+test/
+tests/
+coverage.txt
+*.out
+coverage.html
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Docker files (don't copy into container)
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# Deployment and CI files
+.github/
+.gitlab-ci.yml
+.travis.yml
+.circleci/
+deploy/
+k8s/
+helm/
+
+# Scripts (these shouldn't go in container)
+setup-secrets.sh
+deploy-with-secrets.sh
+*.sh
+
+# Documentation
+docs/
+documentation/
+
+# Other common files to exclude
+.nyc_output
+.cache
+.parcel-cache
+.next
+.nuxt
+.vuepress/dist
+.serverless/
+.fusebox/
+.dynamodb/
+
+# Backup files
+*.bak
+*.backup
+*.old
